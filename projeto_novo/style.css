@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Maven+Pro:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-principal:rgb(53, 53, 52);
+    --cor-secundaria: #FFFFFF;
+    --cor-terciaria: rgb(129, 125, 118);
+    --cor-de-fundo: rgb(225, 210, 210);
+    --cor-de-fundo-container: rgb(242, 242, 240);
+    --fonte-primaria: "Work Sans", sans-serif;
+    --fonte-secundaria: "Maven Pro", sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: var(--cor-de-fundo);
+    margin: 100px;
+    display: grid;
+    justify-items:column;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hub__logo {
+    font-size: 50px;
+    font-family: var(--fonte-secundaria);
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-start;
+    color: var(--cor-principal);
+}
+
+.nav__links {
+    display: flex;
+    justify-content: right;
+    font-size: 25px;
+    font-family: var(--fonte-primaria);
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    align-content: space-around;
+    align-items: center;
+    gap: 24px;
+    color: var(--cor-principal);
+}
+
+.botao__startups {
+    display: flex;
+    justify-content: flex-end;
+    background: var(--cor-secundaria);
+    font-size: 25px;
+    font-family: var(--fonte-primaria);
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding-bottom: 20px;
+    padding-inline: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border: none;
+    color: var(--cor-principal);
+}
+
+.botao__singin {
+    display: flex;
+    justify-content: flex-end;
+    background: rgb(54, 51, 51);
+    color: var(--cor-secundaria);;
+    font-size: 25px;
+    font-family: var(--fonte-primaria);
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding-bottom: 20px;
+    padding-inline: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-right: 10px;
+}
+
+.conteudo__principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    height: 63vh;
+    padding-left: 300px;
+    scroll-padding: 1000px;
+    padding-top: 150px;
+}
+
+.imagem {
+    display: flex;
+    justify-content: right;
+    width: 1200px;
+    background-size: contain;
+}
+
+.titulo {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    display: flex;
+    justify-content: baseline;
+    font-size: 180px;
+    align-content: center;
+    align-items: baseline;
+    color: var(--cor-principal);
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: var(--fonte-primaria);
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    align-items: center;
+    gap: 24px;
+    margin: 0;
+    padding-top: 0px;
+}
+
+.link__rodape {
+    color: rgb(129, 125, 118);
+    padding-left: 350px;
+    padding-top: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: right;
+    border: none;
+}
+
+.container1 {
+    font-size: 25px;
+    font-family: var(--fonte-primaria);
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 100px;
+    padding-left: 170px;
+    padding-right: 170px;
+    color: var(--cor-terciaria);
+    background: var(--cor-de-fundo-container);
+    display: flex;
+    gap: 10px;
+}
+
+.container2 {
+    font-size: 25px;
+    font-family: var(--fonte-primaria);
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 100px;
+    color: var(--cor-terciaria);
+    padding-left: 100px;
+    padding-right: 100px;
+    outline: none;
+    background: var(--cor-de-fundo-container);
+}
+
+.container3 {
+    font-size: 25px;
+    font-family: var(--fonte-primaria);
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: var(--cor-secundaria);
+    background: rgb(233, 98, 98);
+    border: none;
+    padding: 100px;
+}
+
+.icone__busca {
+    
+    width: 35px;
+    display: flex;
+    justify-items:center;
+    align-items:column;
+
+
+}
